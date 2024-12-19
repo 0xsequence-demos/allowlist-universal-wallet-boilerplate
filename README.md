@@ -1,6 +1,6 @@
-# Sequence Kit Embedded Wallet React Starter Boilerplate
+# Sequence Allowlist Starter Boilerplate
 
-Starter Sequence Embedded Wallet boilerplate that uses [Sequence Kit](https://github.com/0xsequence/kit) with React.
+Starter Sequence Allowlist Starter boilerplate that uses [Sequence Kit](https://github.com/0xsequence/kit) and [@0xsequence/builder](https://github.com/0xsequence/sequence.js/tree/master/packages/builder) package with React.
 
 ## Quickstart
 
