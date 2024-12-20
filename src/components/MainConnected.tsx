@@ -5,7 +5,8 @@ import { useRegisterUser } from "../hooks/useRegisterUser";
 
 const MainConnected = () => {
   const { address } = useAccount();
-  const { isRegistered, isLoading } = useRegisterUser();
+  const { data, isLoading } = useRegisterUser();
+  const isRegistered = data?.isRegistered;
 
   if (isLoading) {
     return (
